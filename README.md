@@ -1,5 +1,7 @@
 ## MoonBit-Chalk
 
+> ⚠️ This is a fork and continued maintenance version of [Lampese's MoonBit-Chalk](https://github.com/Lampese/moonbit-chalk). 
+
 MoonBit-Chalk provides some APIs for terminal color rendering, including rendering APIs for formatting, background color, and font color.
 
 ### Usage
