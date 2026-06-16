@@ -1,5 +1,5 @@
 ///|
-pub(all) enum BackGroundColors {
+pub(all) enum BackgroundColor {
   BgBlack
   BgRed
   BgGreen
@@ -19,8 +19,8 @@ pub(all) enum BackGroundColors {
 }
 
 ///|
-fn background_color_to_index(color : BackGroundColors) -> Int {
-  match color {
+fn BackgroundColor::to_index(self : BackgroundColor) -> Int {
+  match self {
     BgBlack => 40
     BgRed => 41
     BgGreen => 42

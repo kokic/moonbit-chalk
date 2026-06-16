@@ -12,8 +12,8 @@ pub(all) enum Modifier {
 }
 
 ///|
-fn modifier_to_index(modifier : Modifier) -> (Int, Int) {
-  match modifier {
+fn Modifier::to_index(self : Modifier) -> (Int, Int) {
+  match self {
     Reset => (0, 0)
     Bold => (1, 22)
     Dim => (2, 22)

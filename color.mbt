@@ -1,5 +1,5 @@
 ///|
-pub(all) enum Colors {
+pub(all) enum Color {
   Black
   Red
   Green
@@ -19,8 +19,8 @@ pub(all) enum Colors {
 }
 
 ///|
-fn color_to_index(color : Colors) -> Int {
-  match color {
+fn Color::to_index(self : Color) -> Int {
+  match self {
     Black => 30
     Red => 31
     Green => 32
